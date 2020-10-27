@@ -1,4 +1,17 @@
 [package]
-name = "core_data_types"
+name = "types_variables"
 version = "0.1.0"
-authors = ["Rui Liu"] 
+authors = ["Rui Liu"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[example]]
+name = "core_data_types"
+path = "src/core_data_types.rs"
+
+[[example]]
+name = "operators"
+path = "src/operator.rs"
