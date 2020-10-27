@@ -3,40 +3,42 @@
 
 use std::mem;
 
+fn operators() {
+    //arithmatic
+    let mut a = 2+3*4;
+    println!("{}", a);
+    // incremental operator, but doesn't support --, ++
+    a = a+1;
+    a -= 2;
+    a += 1; 
+    println!("{}", a);
+
+    println!("remainder of {}/{}={}", a, 3, (a%3));
+    let a_cubed = i32::pow(a, 3);
+    println!("{} cubed is {}", a, a_cubed);
+
+    let b = 2.5;
+    let b_cubed = f64::powi(b, 3);
+    let b_to_pi = f64::powf(b, std::f64::consts::PI);
+    println!("{} cubed is {}, {}^pi is {}", b, b_cubed, b, b_to_pi);
+
+    //bitwise
+    let c = 1 | 2; // | OR, & AND, ^ XOR, ! NOR
+    println!("1|2 = {}", c);
+
+    let two_to_10 = 1 << 10;
+    println!("2^10 = {}", two_to_10);
+
+    //logical
+    let pi_less_4 = std::f64::consts::PI < 4.0; //true
+    println!("pi is less then 4, {}", pi_less_4);
+
+    let x = 5;
+    let x_is_5 = x == 5; //true
+    println!("x is equal to 5, {}", x_is_5);
+
+}
+
 fn main() {
-    let a: u8 = 123; //u8 = unsigned, 8 bits
-    println!("a={}", a); // immutable variable
-
-    // u = unsigned, 0 to 2^n-1
-    // i = signed, -2^(n-1) to 2^(n-1)-1
-    let mut b: i8 = 0; // mutable variable
-    println!("b = {} before", b);
-    b = 42;
-    println!("b = {} after", b);
-
-
-    //implicitly define a variable (immutable)
-    let c = 123456789;
-    println!("c = {}, takes up {} bytes", c, mem::size_of_val(&c));
-
-    // u8, u16, u32, u64, i8, i16, ...
-    // uszie, isize
-    let z: isize = 123;
-    let size_of_z = mem::size_of_val(&z);
-    println!("z={}, takes up {} bytes, {}-bit OS", z, size_of_z, size_of_z*8);
-
-    let d: char = 'x';
-    println!("{} is a char, size = {} bytes", d, mem::size_of_val(&d));
-    
-    // f32, f64
-    let e: f32 = 2.5;
-    println!("{}, size = {} bytes", e, mem::size_of_val(&e));
-
-    // default type is f64
-    let f = 2.5;
-    println!("{}, size = {} bytes", f, mem::size_of_val(&f));
-
-    // bool variable
-    let g:bool = false;
-    println!("{}, size = {} bytes", g, mem::size_of_val(&g));
+    operators();
 }   

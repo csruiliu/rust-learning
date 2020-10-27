@@ -14,4 +14,4 @@ path = "src/core_data_types.rs"
 
 [[example]]
 name = "operators"
-path = "src/operator.rs"
+path = "src/operators.rs"
