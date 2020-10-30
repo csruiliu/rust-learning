@@ -1,8 +1,6 @@
 #[allow(dead_code)]
 #[allow(unused_variables)]
 
-use std::mem;
-
 fn operators() {
     //arithmatic
     let mut a = 2+3*4;

@@ -15,3 +15,11 @@ path = "src/core_data_types.rs"
 [[example]]
 name = "operators"
 path = "src/operators.rs"
+
+[[example]]
+name = "scope_shadow"
+path = "src/scope_shadow.rs"
+
+[[example]]
+name = "declaring_using_constants"
+path = "src/declaring_using_constants.rs"
