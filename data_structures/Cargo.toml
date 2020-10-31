@@ -1,0 +1,41 @@
+[package]
+name = "data_structures"
+version = "0.1.0"
+authors = ["csruiliu"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[example]]
+name = "structs"
+path = "src/structs.rs"
+
+[[example]]
+name = "enumerations"
+path = "src/enumerations.rs"
+
+[[example]]
+name = "arrays"
+path = "src/arrays.rs"
+
+[[example]]
+name = "option"
+path = "src/option.rs"
+
+[[example]]
+name = "slices"
+path = "src/slices.rs"
+
+[[example]]
+name = "tuples"
+path = "src/tuples.rs"
+
+[[example]]
+name = "pattern_matching"
+path = "src/pattern_matching.rs"
+
+[[example]]
+name = "generics"
+path = "src/generics.rs"
