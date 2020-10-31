@@ -11,3 +11,15 @@ edition = "2018"
 [[example]]
 name = "if_statement"
 path = "src/if_statement.rs"
+
+[[example]]
+name = "while_loop"
+path = "src/while_loop.rs"
+
+[[example]]
+name = "match_statement"
+path = "src/match_statement.rs"
+
+[[example]]
+name = "combination_lock"
+path = "src/combination_lock.rs"
