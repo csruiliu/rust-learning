@@ -17,6 +17,10 @@ name = "enumerations"
 path = "src/enumerations.rs"
 
 [[example]]
+name = "unions"
+path = "src/unions.rs"
+
+[[example]]
 name = "arrays"
 path = "src/arrays.rs"
 
