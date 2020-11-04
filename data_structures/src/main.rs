@@ -1,3 +1,5 @@
+mod pm;
+
 fn main() {
-    println!("Hello, world!");
+    pm::pattern_matching();
 }
