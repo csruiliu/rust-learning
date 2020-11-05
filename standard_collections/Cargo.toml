@@ -7,3 +7,19 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[[example]]
+name = "vector"
+path = "src/vector.rs"
+
+[[example]]
+name = "hashmap"
+path = "src/hashmap.rs"
+
+[[example]]
+name = "hashset"
+path = "src/hashset.rs"
+
+[[example]]
+name = "iterators"
+path = "src/iterators.rs"
