@@ -7,3 +7,15 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[[example]]
+name = "strings"
+path = "src/strings.rs"
+
+[[example]]
+name = "string_formatting"
+path = "src/string_formatting.rs"
+
+[[example]]
+name = "number_guessing"
+path = "src/number_guessing.rs"
