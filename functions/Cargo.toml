@@ -1,0 +1,25 @@
+[package]
+name = "functions"
+version = "0.1.0"
+authors = ["csruiliu"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[example]]
+name = "functions"
+path = "src/functions.rs"
+
+[[example]]
+name = "methods"
+path = "src/methods.rs"
+
+[[example]]
+name = "closures"
+path = "src/closures.rs"
+
+[[example]]
+name = "higher_order_functions"
+path = "src/higher_order_functions.rs"
