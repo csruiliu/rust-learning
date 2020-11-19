@@ -11,3 +11,7 @@ edition = "2018"
 [[example]]
 name = "traits"
 path = "src/traits.rs"
+
+[[example]]
+name = "trait_parameters"
+path = "src/trait_parameters.rs"
