@@ -19,3 +19,7 @@ path = "src/trait_parameters.rs"
 [[example]]
 name = "into"
 path = "src/into.rs"
+
+[[example]]
+name = "drop"
+path = "src/drop.rs"
