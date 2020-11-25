@@ -23,3 +23,7 @@ path = "src/into.rs"
 [[example]]
 name = "drop"
 path = "src/drop.rs"
+
+[[example]]
+name = "operator_overloading"
+path = "src/operator_overloading.rs"
