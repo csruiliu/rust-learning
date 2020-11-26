@@ -27,3 +27,7 @@ path = "src/drop.rs"
 [[example]]
 name = "operator_overloading"
 path = "src/operator_overloading.rs"
+
+[[example]]
+name = "static_dispatch"
+path = "src/static_dispatch.rs"
