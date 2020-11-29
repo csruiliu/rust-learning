@@ -35,3 +35,7 @@ path = "src/static_dispatch.rs"
 [[example]]
 name = "dynamic_dispatch"
 path = "src/dynamic_dispatch.rs"
+
+[[example]]
+name = "dynamic_dispatch_revisit"
+path = "src/dynamic_dispatch_revisit.rs"
