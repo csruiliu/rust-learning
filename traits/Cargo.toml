@@ -39,3 +39,7 @@ path = "src/dynamic_dispatch.rs"
 [[example]]
 name = "dynamic_dispatch_revisit"
 path = "src/dynamic_dispatch_revisit.rs"
+
+[[example]]
+name = "vector_diff_obj"
+path = "src/vector_diff_obj.rs"
