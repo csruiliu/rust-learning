@@ -11,3 +11,7 @@ edition = "2018"
 [[example]]
 name = "ownership"
 path = "src/ownership.rs"
+
+[[example]]
+name = "borrowing"
+path = "src/borrowing.rs"
