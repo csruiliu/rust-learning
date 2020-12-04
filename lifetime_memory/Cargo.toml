@@ -15,3 +15,7 @@ path = "src/ownership.rs"
 [[example]]
 name = "borrowing"
 path = "src/borrowing.rs"
+
+[[example]]
+name = "lifetime"
+path = "src/lifetime.rs"
