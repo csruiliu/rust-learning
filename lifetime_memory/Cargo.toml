@@ -19,3 +19,7 @@ path = "src/borrowing.rs"
 [[example]]
 name = "lifetime"
 path = "src/lifetime.rs"
+
+[[example]]
+name = "lifetime_structure_impl"
+path = "src/lifetime_structure_impl.rs"
