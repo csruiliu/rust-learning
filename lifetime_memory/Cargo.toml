@@ -27,3 +27,7 @@ path = "src/lifetime_structure_impl.rs"
 [[example]]
 name = "reference_counted"
 path = "src/reference_counted.rs"
+
+[[example]]
+name = "atomic_reference_counted"
+path = "src/atomic_reference_counted.rs"
