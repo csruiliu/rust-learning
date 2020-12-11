@@ -1,0 +1,13 @@
+[package]
+name = "concurrency"
+version = "0.1.0"
+authors = ["csruiliu"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[example]]
+name = "spawn_join_threads"
+path = "src/spawn_join_threads.rs"
