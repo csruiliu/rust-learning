@@ -1,5 +1,5 @@
 [package]
-name = "crates"
+name = "modules_crates"
 version = "0.1.0"
 authors = ["csruiliu"]
 edition = "2018"
@@ -7,9 +7,3 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rand = "0.7"
-modules_crates = {path = "../modules_crates"}
-
-[[example]]
-name = "consume_crates"
-path = "src/consume_crates.rs"
